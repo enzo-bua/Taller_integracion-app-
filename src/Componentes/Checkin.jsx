@@ -1,11 +1,8 @@
 import React from "react";
 import '../Styles/Login-Checkin.css'
-import Header from "./Header";
 
-const Login = () => {
+const Checkin = () => {
     return ( 
-        <nav>
-            <Header/>
         <div id="contenedor">
             <div id="central">
                 <div id="login">
@@ -13,19 +10,16 @@ const Login = () => {
                         Bienvenido
                     </div>
                     <div class="ing">
-                        Por favor, ingrese con su cuenta
+                        Por favor, ingrese su cuenta
                     </div>
                     <form id="loginform">
                         <input type="text" name="usuario" placeholder="Usuario" required/>
                         
                         <input type="password" placeholder="Contraseña" name="password" required/>
                         
-                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                        <button type="submit" title="Ingresar" name="Ingresar">REGISTRARME</button>
                     </form>
-                    <div class="pie-form">
-                        <a href="#">¿Perdiste tu contraseña?</a>
-                        <a href="#">¿No tienes Cuenta? Registrate</a>
-                    </div>
+
                     <div className="google">
                         <div class="ing">
                             Continuar con Google
@@ -41,8 +35,7 @@ const Login = () => {
             </div>
         </div>
             
-        </nav>
      );
 }
  
-export default Login;
+export default Checkin;
