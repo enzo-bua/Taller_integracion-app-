@@ -3,13 +3,15 @@ import '../Styles/Header.css'
 const Header = () => {
   return ( 
     <nav>
-        <img className='img' src={logo} alt="" />
+        
 
         <input type="checkbox" id="check"/>
         <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
         </label>
-        <a href="#" class="enlace"></a>
+        <a href="#" class="enlace">
+        </a>
+          <img className='logo' src={logo} alt="" /> 
         <ul>
             <li><a className="fs-6 fw-light Italic" href="#">HOME</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">NOVEDADES</a></li>
@@ -23,6 +25,8 @@ const Header = () => {
             <li><a className="fs-6 fw-bold" href="#">Favoritos</a></li>
         </ul>
     </nav>
+
+    
   );
 }
  
