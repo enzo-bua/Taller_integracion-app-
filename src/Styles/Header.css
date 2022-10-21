@@ -67,6 +67,7 @@ section{
   position: relative;
   cursor: pointer;
   margin-left: 50px;
+  margin-top: 50px;
 }
 
 .searchBarIcon {
@@ -88,6 +89,9 @@ section{
   color: rgb(150, 137, 137);
   transition: border-color 0.2s;
 }
+
+
+
 
 .searchBar input:focus {
   border-color: #5aa3c2;

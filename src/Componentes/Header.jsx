@@ -14,13 +14,13 @@ const Header = () => {
             <i class="fas fa-bars"></i>
         </label>
         <a href="#" class="enlace">
-        </a>
-          <img className='logo' src={logo} alt="" /> 
+        </a><img className='logo' src={logo} alt="" /> 
         <ul>
             <li><a className="fs-6 fw-light Italic" href="#">HOME</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">NOVEDADES</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">GENERO</a></li>
-            <li><a className="fs-6 fw-light Italic" href="#">AUTOR</a></li>
+            <li><a className="fs-6 fw-light Italic" href="#">AUTOR</a>
+            </li>
             <li><a className="fs-6 fw-light Italic" href="#">CATEGORIA</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">OFERTA</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">RECOMENDADOS</a></li>

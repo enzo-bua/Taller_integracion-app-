@@ -1,52 +1,85 @@
-.contenedor-temp {
-    background-color: rgb(240, 240, 236);
-    border: 1px;
-    width: 300px;
-    height: 300px;
-    margin: 200px;
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+
+
 }
-  
-/* .imag-test {
-    height: 100%;
-    width: auto;
-}
-  
-.contenedor-text-test {
+
+.container .card{
+    width: 200px;
+    height: 335px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
     text-align: center;
-    padding: 40px;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    line-height: 1.5rem;
-}
-  
-.name-test {
-    font-size: 1.3rem;
-}
-  
-.burden-test {
-    font-size: 1.3rem;
-    margin-top: 15px;
-    padding-bottom: 30px;
-}
-  
-.text-test {
-    font-size: 1.1rem;
-    text-align: justify;
+    transform: all 0.25s;
+    background-color: #9ea5a5;
+
 }
 
-.imag-test{
-    height: 100%;
-    width: auto;
+.container .card:hover{
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.contenedor-text-test{
-    text-align: center;
-    padding: 40px;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    line-height: 1.5rem;
+.img{
+    width: 55%;
+    margin-top: 15px ;
+    margin-left:24%;
+    
 }
 
-.name-test{
-    font-size: 1.3rem; 
-} */
+.data .name{
+    font-size: 1.1em;
+}
+
+.data .descripcion{
+    font-family: 'Inter';
+    font-style: normal;
+    margin-top: -15px;
+    font-size: 0.8em;
+
+}
+
+.data .precio{
+    font-size: 1em;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.data .cuotas{
+    font-family: 'Inter';
+    font-style: normal;
+    color:#d5d5ea;
+    margin-top:-20px ;
+    font-size: 0.8em;
+
+}
+
+.data button{
+    width: 55%;
+    height: 18%;
+    text-decoration: none;
+    margin-top: -30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+@media (max-width: 600px){
+    .c{
+        flex-direction: column;
+    }
+    .container .card {
+        flex-direction: column;
+    }
+}
+  
+
+
+  
+
+
+
