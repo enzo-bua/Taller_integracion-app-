@@ -15,6 +15,8 @@ const Header = () => {
         </label>
         <a href="#" class="enlace">
         </a><img className='logo' src={logo} alt="" /> 
+
+
         <ul>
             <li><a className="fs-6 fw-light Italic" href="#">HOME</a></li>
             <li><a className="fs-6 fw-light Italic" href="#">NOVEDADES</a></li>
@@ -29,7 +31,6 @@ const Header = () => {
             <li><a className="fs-6 fw-bold" href="#">Favoritos</a></li>
             <li><FaShoppingCart className={styles.iconAnimation}/></li>
             <li><FaHouseUser className={`${styles.iconAnimation} ${styles.userMenuIn}`}/></li>
-            
         </ul>
 
     </nav>

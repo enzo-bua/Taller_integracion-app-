@@ -127,6 +127,9 @@ section{
   }
 }
 
+.b{
+  border-radius: 20px;
+}
 
 
 @media (max-width: 952px){
@@ -151,7 +154,7 @@ section{
     height: 30px;
     position: relative;
     margin-top: 15px;
-    margin-left: 30%;
+    margin-left: 20%;
   }
   ul{
       position: fixed;
